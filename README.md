@@ -9,13 +9,13 @@
 * license agreement from NVIDIA Corporation is strictly prohibited.
 * 
 *****************************************************************************
-# Instroduction
+# Introduction
 
 This deepstream-yolo3-gige application uses the Nvidia DeepStream-5.1 SDK
 to generate video or display on screen after object detection.
 
 This apps uses the Basler acA1920-25gc GigE camera (ethernet port) with the ARAVIS SDK [1] as the plugin.
-Also it takes advantages of Nvidi DeepStream-5.1 SDK with the Yolo3 Libraries for quick DS-5.1 application. 
+Also it takes advantages of Nvidia DeepStream-5.1 SDK with the Yolo3 Libraries for quick DS-5.1 application. 
 
 With the GigE camera in place, this application idea can be extended into many applications, such as the 
 highway trafic follow monitoring, industrial production line for quality control, supermarket safety control, etc. 
