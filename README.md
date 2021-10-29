@@ -45,7 +45,7 @@ for Jetson devices, for example of Jetson NX, copy that file into /usr/lib/aarch
 
 
 
-# Prequisites:
+# Prerequisites:
 
 Please follow instructions in the apps/sample_apps/deepstream-app/README on how
 to install the prequisites for Deepstream SDK, the DeepStream SDK itself and the
