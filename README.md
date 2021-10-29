@@ -48,7 +48,7 @@ for Jetson devices, for example of Jetson NX, copy that file into /usr/lib/aarch
 # Prerequisites:
 
 Please follow instructions in the apps/sample_apps/deepstream-app/README on how
-to install the prequisites for Deepstream SDK, the DeepStream SDK itself and the
+to install the prerequisites for Deepstream SDK, the DeepStream SDK itself and the
 apps.
 
 
@@ -78,7 +78,7 @@ One must have the following development packages installed
 
   * The ARAVIS SDK and Basler GigE camera will be used for this application
 
-  * TLT converter to generate the TRT engine file for the DeepStream Deployment for the Yolo3 GigE application if need re-train
+  * Using TLT converter to generate the TRT engine file for the DeepStream Deployment for the Yolo3 GigE application if need re-train
 
   * User can make selection: either display the bounding box of object detection on screen or save as a encoded H264 video file
 
@@ -93,7 +93,7 @@ One must have the following development packages installed
 
   * $ make
 
-  * For Jetson edge device, e.g, Xavier NX, one need to use deepstream-yolov3-gige-jetson-nx.c
+  * For Jetson edge device, e.g, Xavier NX, one need to use deepstream-yolov3-gige-jetson.c : "nvbuf-memory-type", 3
 
 
 
