@@ -26,20 +26,20 @@ highway trafic follow monitoring, industrial production line for quality control
 # What is ARAVIS?
 
 Aravis is a glib/gobject based library for video acquisition using Genicam cameras. It currently implements the 
-gigabit ethernet anbd USB3 protocols used by the industrial cameras. It also provides a basic ethernet camera simulator
+gigabit ethernet and USB3 protocols used by the industrial cameras. It also provides a basic ethernet camera simulator
 and simple video viewer[1]. License requirement is under GNU General Public License, Version 2
 
 
 
 # How to Install ARAVIS?
 
-download the aravis-0.6.0 (this version works for this apps) and put it in /src dir. as example. One can try the latest version as well.
+download the aravis-0.6.0 (this version works for this apps at least) and put it in /src dir. as example. One can try the latest version as well.
 
-cd aravis-0.6.0 <br>
-./configure --enable-viewer --prefix=/usr <br>
-make <br>
-make install <br>
-After get libgstaravis-0.6.so, one need to copy that file into /usr/lib/x86_64-linux-gnu for dGPU <br>
+* cd aravis-0.6.0 <br>
+* ./configure --enable-viewer --prefix=/usr <br>
+* make <br>
+* make install <br>
+* After get libgstaravis-0.6.so, one need to copy that file into /usr/lib/x86_64-linux-gnu for dGPU <br>
 for Jetson devices, for example of Jetson NX, copy that file into /usr/lib/aarch64-linux-gnu <br>
 
 
