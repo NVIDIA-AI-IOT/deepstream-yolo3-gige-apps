@@ -93,7 +93,7 @@ One must have the following development packages installed
 
   * $ make
 
-  * For Jetson edge device, e.g, Xavier NX, one need to use deepstream-yolov3-gige-jetson.c : "nvbuf-memory-type", 3
+  * For Jetson edge device, e.g, Xavier NX, one need to use  "nvbuf-memory-type", 1 in deepstream-yolov3-gige-jetson.c to replace: "nvbuf-memory-type", 3 which is fit for dPGU use
 
 
 
