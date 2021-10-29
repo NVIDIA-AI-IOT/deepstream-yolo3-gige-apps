@@ -31,6 +31,7 @@ and simple video viewer[1]. License requirement is under GNU General Public Lice
 
 
 
+
 # How to Install ARAVIS?
 
 download the aravis-0.6.0 (this version works for this apps at least) and put it in /src dir. as example. One can try the latest version as well.
@@ -64,7 +65,9 @@ One must have the following development packages installed
 
 
 # DeepStream Pipeline 
-  * DeepStream SDK is based on the GStreamer framework. GStreamer is a pipeline based multimedia framework that links together a wide variety of media processing systems to complete workflows. Following is the pipleline for this Yolo3 GiGE application which is based on the DL Yolo3 network for the Object Dectection. 
+  * DeepStream SDK is based on the GStreamer framework. GStreamer is a pipeline based multimedia framework that links together a wide variety of media processing systems to complete workflows. Following is the pipleline for this Yolo3 GiGE application which is based on the DL Yolo3 network for the Object Dectection.
+
+
 ![gst-pipleline-png](gige-pipeline.png)
 
 
@@ -105,6 +108,7 @@ One must have the following development packages installed
   * $ example: sudo ./deepstream_yolov3_gige out.h264 -- produce the video output file which is in encoded H264 format.  
 
   * Example picture from the object detection result
+  
 
 ![yolo3-result](pylon_basler.png)
 
