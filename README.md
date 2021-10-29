@@ -93,7 +93,7 @@ One must have the following development packages installed
 
   * $ make
 
-  * For Jetson edge device, e.g, Xavier NX: "nvbuf-memory-type", 1 while "nvbuf-memory-type", 3 in deepstream-yolov3-gige.c to replace: "nvbuf-memory-type", 3 which is fit for dPGU use
+  * For Jetson edge device, e.g, Xavier NX: "nvbuf-memory-type", 0, is used while "nvbuf-memory-type", 3 is for dGPU in deepstream-yolov3-gige.c
 
 
 
@@ -113,9 +113,9 @@ One must have the following development packages installed
 
 
  
- # Nvidia Transfer Learning Toolkit 3.0 for Re-Training, Evaluation, Export, and Quick Deployment <br>
+ # Nvidia Transfer Learning Toolkit 3.0 for Re-Training, Evaluation, Export, and Convert for Quick Deployment <br>
 
-
+  * No re-retraining is needed since DeepStream-5.1 has the Yolo3 library in. In case to do the re-training, please refer to following steps. 
 
   * TLT Converter Information (include how to download) : https://developer.nvidia.com/tlt-get-started
 
@@ -125,7 +125,7 @@ One must have the following development packages installed
 
   * One can refer to Jupyter Notebook (yolo_v3.ipynb) for Yolo3 training based on the new dataset used
 
-  * Refer to default_spec as the configuration file used by the Jupyter Notebook for the training, evaluation, and export
+  * Refer to default_spec as the configuration file used by the Jupyter Notebook for the training, evaluation, export, and convert
 
   * Use the Jupyter Notebook to download the resenet_18 for yolov3 from Nvidia GPU Cloud : https://ngc.nvidia.com/
 
@@ -148,7 +148,7 @@ One must have the following development packages installed
   * Use the Jetson version of the tlt converter to generate the .engine file used in the Jetson devices
 
     example: ./tlt-converter -k $key -e trt.fp16.engine -t fp16 -p input_1 1,1x3x600x600, 4x3x600x600,16x3x600x600 frcnn_kitti_resnet50_retrain_fp16.etlt <br>
-    here: $key is the key when do the tlt train and 600x600 is the input/training image size as example
+    here: $key is the key when do the tlt training and 600x600 is the input/training image size as example
 
   * Define the .etlt or .engine file path in the config file for dGPU and Jetson for the DS-5.1 application
 
