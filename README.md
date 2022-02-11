@@ -115,7 +115,7 @@ One must have the following development packages installed
 
 # How to Run this DeepStream Yolo3 GiGE Application 
 
-  * $ sudo ./deepstream_yolov3_gige 5000 5001 -- object detection results will be shown on the RTSP port: 5001 via VLC media player
+  * $ example: sudo ./deepstream_yolov3_gige 5000 5001 -- object detection results will be shown on the RTSP port: 5001 via VLC media player
 
   * $ example: sudo ./deepstream_yolov3_gige  -- object detection results will be displayed on screen only
 
