@@ -51,6 +51,7 @@ LIBS:= `pkg-config --libs $(PKGS)`
 LIBS+= -L$(LIB_INSTALL_DIR) -lnvdsgst_meta -lnvds_meta -lnvdsgst_helper -lm \
        -Wl,-rpath,$(LIB_INSTALL_DIR)  -L/usr/lib/gstreamer-1.0 \
        -lnvbufsurface -lnvbufsurftransform -lnvdsgst_helper -lnvds_batch_jpegenc \
+       -lgstrtspserver-1.0
        
 
 all: $(APP)
