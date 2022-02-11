@@ -103,6 +103,7 @@ One must have the following development packages installed
   * $ cd deepstream-yolov3-gige
 
   * If need to generate the H264 or display the video on the screen,  do following: <br>
+  
        cp deepstream-yolov3-gige.c.h264 deepstream-yolov3-gige.c
        
   * $ make
@@ -113,6 +114,8 @@ One must have the following development packages installed
 
 
 # How to Run this DeepStream Yolo3 GiGE Application 
+
+  * $ sudo ./deepstream_yolov3_gige 5000 5001 -- object detection results will be shown on the RTSP port: 5001 via VLC media player
 
   * $ example: sudo ./deepstream_yolov3_gige  -- object detection results will be displayed on screen only
 
