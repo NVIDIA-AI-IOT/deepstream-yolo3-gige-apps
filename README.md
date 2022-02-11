@@ -12,7 +12,7 @@
 # Introduction
 
 This deepstream-yolo3-gige application uses the Nvidia DeepStream-5.1 SDK
-to generate video or display on screen after object detection.
+to generate RTSP video stream on RTSP port, H264 encoded video, or display on screen after object detection.
 
 This apps uses the Basler acA1920-25gc GigE camera (ethernet port) with the ARAVIS SDK [1] as the plugin.
 Also it takes advantages of Nvidia DeepStream-5.1 SDK with the Yolo3 Libraries for quick DS-5.1 application. 
