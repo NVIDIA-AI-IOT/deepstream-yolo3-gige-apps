@@ -83,7 +83,7 @@ One must have the following development packages installed
 
   * Using TLT converter to generate the TRT engine file for the DeepStream Deployment for the Yolo3 GigE application if need re-train
 
-  * User can make selection: either display the bounding box of object detection on screen or save as a encoded H264 video file
+  * User can make selection: generate the RTSP video stream,  display the bounding box of object detection on screen, or save as a encoded H264 video file
 
     
 
@@ -99,6 +99,12 @@ One must have the following development packages installed
   * For Jetson edge device, e.g, Xavier NX: "nvbuf-memory-type", 0, is used while "nvbuf-memory-type", 3 is for dGPU in deepstream-yolov3-gige.c
 
 
+
+# How to Install VLC Media Player
+
+  * In order to view the RTSP video stream ont he RTSP port, one need to install the VLC with following command
+   
+    sudo apt install vlc qtwayland5
 
 
 # How to Run this DeepStream Yolo3 GiGE Application 
