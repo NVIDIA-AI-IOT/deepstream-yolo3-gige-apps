@@ -106,7 +106,7 @@ One must have the following development packages installed
   
        cp deepstream-yolov3-gige.c.h264 deepstream-yolov3-gige.c
        
-  * $ make
+  * $ sudo make clean && make
 
   * For Jetson edge device, e.g, Xavier NX: "nvbuf-memory-type", 0, is used while "nvbuf-memory-type", 3 is for dGPU in deepstream-yolov3-gige.c
 
