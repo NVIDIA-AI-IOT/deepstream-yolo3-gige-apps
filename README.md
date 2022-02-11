@@ -85,7 +85,15 @@ One must have the following development packages installed
 
   * User can make selection: generate the RTSP video stream,  display the bounding box of object detection on screen, or save as a encoded H264 video file
 
+
     
+# How to Install VLC Media Player and to do Setting in VLC to View the RTSP Stream 
+
+  * In order to view the RTSP video stream on the RTSP port, one need to install the VLC with following command
+   
+    sudo apt install vlc qtwayland5
+
+  * In the VLC, go to Media -> Open Network Stream and set the address rtsp://localhost:5001/ds-out-avc as example
 
 
 
@@ -98,13 +106,7 @@ One must have the following development packages installed
 
   * For Jetson edge device, e.g, Xavier NX: "nvbuf-memory-type", 0, is used while "nvbuf-memory-type", 3 is for dGPU in deepstream-yolov3-gige.c
 
-
-
-# How to Install VLC Media Player
-
-  * In order to view the RTSP video stream ont he RTSP port, one need to install the VLC with following command
-   
-    sudo apt install vlc qtwayland5
+ 
 
 
 # How to Run this DeepStream Yolo3 GiGE Application 
