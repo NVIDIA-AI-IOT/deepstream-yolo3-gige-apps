@@ -87,7 +87,7 @@ One must have the following development packages installed
 
 
     
-# How to Install VLC Media Player and to do Setting in VLC to View the RTSP Stream 
+# How to Install VLC Media Player and to do Setting in VLC to View the RTSP Stream <br>
 
   * In order to view the RTSP video stream on the RTSP port, one need to install the VLC with following command
    
